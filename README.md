@@ -1,3 +1,7 @@
+## Useful Links
+- [GitHub link]https://github.com/wbgreen0405/proj_udacity)
+- [Weight & Biases project link](https://wandb.ai/explainable_ai/nyc_airbnb?workspace=user-explainable_ai)
+
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
