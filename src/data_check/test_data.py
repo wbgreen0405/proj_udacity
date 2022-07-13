@@ -60,9 +60,14 @@ def test_similar_neigh_distrib(data: pd.DataFrame, ref_data: pd.DataFrame, kl_th
     assert scipy.stats.entropy(dist1, dist2, base=2) < kl_threshold
 
 def test_row_count(data):
-
+    """
+    Apply test to checks that the size of the dataset is reasonable.
+    """
     assert 15000 < data.shape[0] < 1000000
 
 def ttest_price_range(data, min_price, max_price):
-    
+    """
+    Apply test to check if price feature is between the specified range
+    specified range is according to conda.yml min_price and max_price tags
+    """
     assert data['price'].between(min_price, max_price)    
